@@ -2,7 +2,7 @@
 <body>
 
 <textarea rows="50" cols="80" id="textA">
-The cat was playing in the garden.
+Paste Your Text Here.
 </textarea>
 
 <textarea rows="50" cols="80" id="textB">
@@ -13,7 +13,7 @@ The cat was playing in the garden.
 
 var textATemp = document.getElementById("textA");
 var textBTemp = document.getElementById("textB");
-textBTemp.readOnly = 1;
+textBTemp.readOnly = true;
 
 function process(){
 textBTemp.value = textATemp.value.replace(/\n\n/g,"==i==");
