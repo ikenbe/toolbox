@@ -1,11 +1,11 @@
 <html>
 <body>
 
-<textarea rows="10" cols="80" id="textA">
+<textarea rows="50" cols="80" id="textA">
 The cat was playing in the garden.
 </textarea>
 
-<textarea rows="10" cols="80" id="textB">
+<textarea rows="50" cols="80" id="textB">
 </textarea>
 
 <input type="button" value="Convert" id="convert" onclick=process()>
@@ -13,6 +13,7 @@ The cat was playing in the garden.
 
 var textATemp = document.getElementById("textA");
 var textBTemp = document.getElementById("textB");
+textBTemp.readOnly = 1;
 
 function process(){
 textBTemp.value = textATemp.value.replace(/\n\n/g,"==i==");
