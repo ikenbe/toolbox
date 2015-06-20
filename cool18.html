@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<textarea rows="10" cols="80" id="textA">
+The cat was playing in the garden.
+</textarea>
+
+<textarea rows="10" cols="80" id="textB">
+</textarea>
+
+<input type="button" value="Convert" id="convert" onclick=process()>
+<script type="text/javascript">
+
+var textATemp = document.getElementById("textA");
+var textBTemp = document.getElementById("textB");
+
+function process(){
+textBTemp.value = textATemp.value.replace(/\n\n/g,"==i==");
+textBTemp.value = textBTemp.value.replace(/\n/g,"");
+textBTemp.value = textBTemp.value.replace(/==i==/g,"\n");
+};
+
+</script>
+
+</body>
+</html>
