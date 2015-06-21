@@ -64,6 +64,7 @@ function code(){
       }
       add();
   }
+  
   loadJS('b.js',console.log("b.js loaded"));
 
 }
