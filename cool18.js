@@ -2,9 +2,7 @@
 
 function cool18(){
     var container = document.getElementById("container");
-    console.log(container.children[0]);
-container.innerHTML = "<textarea rows=\"30\" cols=\"80\" id=\"textA\">Paste Your Text Here.</textarea><textarea rows=\"30\" cols=\"80\" id=\"textB\"></textarea><input type=\"button\" value=\"Convert\" id=\"convert\">"
-console.log(container.children[0]);
+    container.innerHTML = "<textarea rows=\"30\" cols=\"80\" id=\"textA\">Paste Your Text Here.</textarea><textarea rows=\"30\" cols=\"80\" id=\"textB\"></textarea><input type=\"button\" value=\"Convert\" id=\"convert\">"
 
     var textATemp = document.getElementById("textA"),
         textBTemp = document.getElementById("textB");
