@@ -7,9 +7,9 @@ function code(){
 
   function interface() {
     var container = $('container');
-    container.innerHTML="<div id=\"placeHolder\">PlaceHolder</div>"
+    container.innerHTML="<div id=\"placeHolder\">PlaceHolder</div>";
   }
-  
+
   // Load JS files on demand with loadJS
   function loadJS(obj, callback) {
       var arr = obj,
@@ -62,9 +62,9 @@ function code(){
 
   interface();
 
-  $('container').children[0].onclick = function(){loadJS('cool18.js')};
+  $('container').children[0].onclick = function(){loadJS('cool18.js');};
 
 }
 window.onload = function(){
   code();
-}
+};
