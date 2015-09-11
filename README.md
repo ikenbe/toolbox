@@ -2,6 +2,8 @@
 Something useful for myself, maybe others
 
 ## Text processer
-  - Remove unneccesary \n
+  - Remove extra space
+  - Remove unnecessary \n
   - Make first letters of every sentences capital correctly
-  
+
+## QRcode Generator
