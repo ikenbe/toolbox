@@ -17,6 +17,17 @@ html, body {
        -moz-box-sizing: border-box;
 	    	box-sizing: border-box;
 }
+ul{
+    margin:0;
+    padding:0;
+}
+li, li:hover{
+    display: inline-block;
+    padding: 0 2em 0 0;
+}
+li:hover{
+    cursor: pointer;
+}
 textarea {
     border-style: none;
     padding: 6px;
@@ -53,6 +64,10 @@ div.flex{
     flex-wrap: nowrap;
 	width:100%;
 	/*border: 1px solid;*/
+}
+div#nav{
+    height: 2em;
+    color: red;
 }
 div#container {
     height: 100%;
