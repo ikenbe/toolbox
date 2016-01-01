@@ -59,18 +59,13 @@ function code(){
       }
       add();
   }
-<<<<<<< HEAD
 
   interface();
 
   $('container').children[0].onclick = function(){loadJS('./module/cool18.js');};
   $('button_cool18').onclick = function(){loadJS('./module/cool18.js');};
-=======
-  
-  loadJS('b.js',console.log("b.js loaded"));
->>>>>>> refs/remotes/origin/master
-
 }
+
 window.onload = function(){
   code();
 };
