@@ -1,21 +1,16 @@
 function code(){
-  // alert("hello");
   //Replacing document.getElementById with $
   function $(x){
     if (typeof x == "string") return document.getElementById(x);
     return x;
   }
-  //
 
   function interface() {
     var container = $('container');
-//    container.removeChild($('init'));
-    container.innerHTML="<div>PlaceHolder</div>"
+    container.innerHTML="<div id=\"placeHolder\">Welcome! This is Ken\'s toolbox. Useful or not, this is fun!</div>";
   }
 
-  interface();
-
-// Load JS files on demand with loadJS
+  // Load JS files on demand with loadJS
   function loadJS(obj, callback) {
       var arr = obj,
           timeout,
@@ -64,10 +59,13 @@ function code(){
       }
       add();
   }
-  
-  loadJS('b.js',console.log("b.js loaded"));
 
+  interface();
+
+  $('container').children[0].onclick = function(){loadJS('./module/cool18.js');};
+  $('button_cool18').onclick = function(){loadJS('./module/cool18.js');};
 }
+
 window.onload = function(){
   code();
-}
+};
