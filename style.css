@@ -56,6 +56,9 @@ input[type=checkbox], input[type=radio] {
     display: inline-block;
     margin: 0 3px 0 6px;
 }
+a {
+    text-decoration: none;
+}
 div.flex{
 	display: -webkit-flex;
     display: flex;
@@ -68,6 +71,7 @@ div.flex{
 div#nav{
     height: 2em;
     color: red;
+    padding: 1em 0 0 2em;
 }
 div#container {
     height: 100%;
