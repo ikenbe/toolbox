@@ -1,5 +1,5 @@
-function cool18() {
-    document.title = "Text Converter";
+(function cool18() {
+    window.document.title = "Text Converter";
     var container = document.getElementById("container");
     container.innerHTML = "<div class=\"flex\"><textarea id=\"textA\" placeholder=\"Paste Your Text Here.\"></textarea><textarea id=\"textB\"></textarea></div><div class=\"flex\"><label><input type=\"radio\" id=\"checkbox01\" name=\"0\"><span>Cool18</span></label><label><input type=\"radio\" id=\"checkbox02\" name=\"0\" checked=\"checked\" value=\"\">Momoho</label><label><input type=\"checkbox\" id=\"checkbox03\">Git Style</label><label><input type=\"checkbox\" id=\"checkbox04\">去空格</label><input type=\"button\" value=\"Convert\" id=\"convert\"></div>";
     var textATemp = document.getElementById("textA"),
@@ -25,5 +25,4 @@ function cool18() {
     document.getElementById('convert').onclick = function () {
         process();
     };
-}
-cool18();
+})()
