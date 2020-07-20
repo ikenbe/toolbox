@@ -1,0 +1,146 @@
+<style>
+/*@media screen and (max-device-width: 30rem) {
+　　　　
+        .mdl-layout__content, .page-content, .mdl-layout, .mdl-js-layout {width:100%;margin:0;padding:0;}
+　　}
+  
+    /*@media screen and (min-device-width:800px) {
+    html {font-size:100%}
+    div {color:black;margin: 0px;}
+    input{max-width:20rem}
+    .mdl-layout__drawer-button {
+      display:default;
+      color: white;
+    }*/
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: red;
+    font: 0.8em Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    text-align: center;
+    background: #F06292;
+}
+
+input {
+    margin: 0.3rem 1rem;
+    padding: 0;
+    align-self: center;
+    border: 0px;
+    border-radius: 0.1rem;
+    background: #eee;
+    height: 1.6rem;
+    max-width: 7rem;
+    /*min-width:6rem;*/
+    font: 1rem Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    text-align: center;
+}
+
+font-family, h1, h2, input, .button {
+    font-family: Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", , Roboto, sans-serif;
+}
+
+.button {
+    height: 1.6rem;
+    vertical-align: top;
+    padding: 0 1rem;
+    margin: 0.3rem 1rem;
+    max-width: 10rem;
+    font: 1rem Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+}
+
+.outputtext {
+    color: grey;
+}
+
+.area {
+    margin: 1rem 1rem 2rem 1rem;
+    padding: 0.7rem 0 1rem 1rem;
+    background: #FCE4EC;
+    border-radius: 0.2em;
+    text-align: left;
+    max-width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.4em;
+}
+
+.left {
+    text-align: right;
+    min-width: 30%;
+    max-width: 50%
+}
+
+.right {
+    text-align: left;
+    min-width: 25%;
+    max-width: 50%
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem
+}
+
+#Number {
+    max-width: 8rem;
+    min-width: 4rem;
+    width: 6rem
+}
+
+.center {
+    width: 100%;
+    text-align: center
+}
+
+.kuang {
+    min-width: 4em;
+    max-width: 7em;
+}
+
+.mdl-card {
+    margin: 1rem 1rem;
+    width: 90%;
+    max-width: 25rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top
+}
+
+.mdl-card__title-text {
+    font-size: 1.8rem;
+}
+
+.mdl-card__title {
+    padding: 0 24px
+}
+
+.mdl-card__supporting-text {
+    margin-top: -24px;
+    text-align: left;
+    width: 100%
+}
+
+.mdl-card__actions mdl-card--border {
+    height: 3rem
+}
+
+.mdl-layout__header {
+    background: #E91E63;
+}
+
+.mdl-layout-title {
+    color: white;
+}
+
+</style>
