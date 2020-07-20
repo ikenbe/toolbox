@@ -7,7 +7,7 @@
 
     function process() {
         if (document.getElementById('checkbox01').checked) {
-            textBTemp.value = textATemp.value.replace(/\n\n/g, "==i==");
+            textBTemp.value = textATemp.value.replace(/\n*cool18.com\n/g, "==i==");
             textBTemp.value = textBTemp.value.replace(/\n/g, "");
             textBTemp.value = textBTemp.value.replace(/==i==/g, "\n");
         } else if (document.getElementById('checkbox02').checked) {
