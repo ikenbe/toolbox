@@ -64,7 +64,7 @@ function code(){
 
   $('container').children[0].onclick = function(){loadJS('./module/cool18.js');};
   $('button_cool18').onclick = function(){loadJS('./module/cool18.js');};
-  $('magnet_link').onclick = function(){loadJS('./module/cool18.js');};
+  $('magnet_link').onclick = function(){loadJS('./module/magnet.js');};
 }
 
 window.onload = function(){

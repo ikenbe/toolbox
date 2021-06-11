@@ -2,7 +2,7 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: #000;
-    font-size=62.5%;
+    font-size: 16px;
     font-family: 'noto sans', 'Microsoft Yahei', '微软雅黑', sans-serif;
     color: #fff;
     overflow: hidden;
@@ -84,4 +84,31 @@ div#container {
 }
 #init {
     font-size: 2em;
+}
+#magnetC div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 80vw;
+
+}
+#magnetC span{
+    margin:0.5rem;
+    display: inline-block;
+    width:10rem
+}
+#magnetC input{
+    display: inline-block;
+    width: auto;
+    max-width:40rem;
+}
+
+#newMagnet {
+    font-size: 0.8rem;
+    display: block !important;
+    overflow: visible !important;
+    width: auto !important;
+    word-wrap: break-word !important;
 }
